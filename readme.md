@@ -6,7 +6,7 @@ This was created to generate a random password by following the parameters of th
 
 The motivation was to be able to generate a password that is random by having the user choose a length and a variety of characters such as numbers, letters and special characters. This is asked through a series of prompts, confirms and window alerts. 
 
-I learnt how to use window prompts, window confirms as well as window alerts. These can be used to recieve the users input. For looping is a great way to loop content. I used if/else statements to alert the user if the input had been entered incorrectly. I += into a final array and that then generated the input amount chosen by the user. 
+I learnt during this assignment how to use window prompts, window confirms as well as window alerts. These can be used to recieve the users input either asking for text input, clicking 'okay' or 'cancel' or showing a window alert message. For looping is a great way to loop content. I used if/else statements to alert the user if the input had been entered incorrectly. I += into a final array and that then generated the input amount chosen by the user into a random password. 
 
 
 # My deployed Password Generator -
