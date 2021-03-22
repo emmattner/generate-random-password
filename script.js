@@ -40,7 +40,7 @@ for (let var1 = 0; var1 < passwordLength; var1++) {
 //  const element = array[var1];
 // select random character from finalPWD array and concat to the password text
 // generate rand num betwwen 0 randPWD.length
-  var randnum = 
+  var randNum = Math.floor(Math.random() * finalPWD.length);
   passwordText += randPWD[randNum]
   
 } 
