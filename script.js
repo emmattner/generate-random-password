@@ -27,7 +27,7 @@ if (window.confirm ("Would you like special characters?")) {
   
 }
 
-//might need to check numbers do we need 8 or 7 or 9
+
 if (passwordLength >8 && passwordLength <128) {
   
 }
@@ -37,15 +37,12 @@ alert ("Password length not within parameters.")
 
 passwordText = '';
 for (let var1 = 0; var1 < passwordLength; var1++) {
-//  const element = array[var1];
-// select random character from finalPWD array and concat to the password text
-// generate rand num betwwen 0 randPWD.length
   var randNum = Math.floor(Math.random() * finalPWD.length);
-  passwordText += randPWD[randNum]
+  passwordText += finalPWD[randNum]
   
 } 
 
-return passworodText;  
+return passwordText;  
 }
 
 var generateBtn = document.querySelector("#generate");
