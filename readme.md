@@ -2,7 +2,7 @@
 
 Here I have created a random password generator.
 
-This was created to generate a random password with parameters of a legnth >8 and <128 characters.
+This was created to generate a random password by following the parameters of the password being the length of >8 and <128 characters.
 
 The motivation was to be able to generate a password that is random by having the user choose a length and a variety of characters such as numbers, letters and special characters. This is asked through a series of prompts, confirms and window alerts. 
 
